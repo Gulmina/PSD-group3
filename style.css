@@ -44,13 +44,19 @@
 }
 
 .s-btn{
+  
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  border-color: aqua;
+  color: aqua;
+  height: 3rem;
+  width: 8rem;
+  letter-spacing: 0.02rem;
 float:left;
 margin-top: 30px;
 margin-bottom: 30px;
 padding:5px;
-border-color: dodgerblue;
-background-color: white;
-color:dodgerblue
 }
 
 .s-img{
