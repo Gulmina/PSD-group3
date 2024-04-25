@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./photoshop/design-assets/bgk-middle.png");
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.play-btn-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video p {
+  text-align: center;
+  position: absolute;
+  margin-top: 12rem;
+  width: 230px;
+  color: #fff;
+  /* border: 2px solid orange; */
+  font-family: sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.02rem;
+  font-size: 20px;
+  text-transform: uppercase;
+}

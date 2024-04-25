@@ -1,5 +1,6 @@
-
 @import url("nav-hero.css");
+@import url("video.css");
+@import url("expertise.css");
 
 /*--Second part CSS start*/
 
@@ -17,8 +18,6 @@
   align-content: center;
   margin: 10px;
   padding:60px;
-  
-
 
 }
 .secondpart{
@@ -26,7 +25,6 @@
     text-align: center;
     padding:20px;
     width: 400px;
-    
     position:cover;
 
 }
@@ -36,7 +34,6 @@
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  
   
 }
 .s-p{
@@ -70,11 +67,8 @@ padding:5px;
 
 /*--Second part CSS end*/
 
-
-
-
 .footer {
-  background-image: url('./photoshop/design-assets/bgk-footer.png');
+  background-image: url("./photoshop/design-assets/bgk-footer.png");
   color: white;
   background-size: cover;
 }
@@ -84,32 +78,26 @@ padding:5px;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: start;
   column-gap: 1rem;
-  row-gap: 3rem
-  ;
+  row-gap: 3rem;
   padding: 5rem 10rem;
-  
 }
 
 .foot-nav {
-  grid-column: 1/span 1;
-  
+  grid-column: 1 / span 1;
 }
 .foot-nav-list {
   display: flex;
   justify-content: space-between;
- 
- 
 }
-.foot-nav-list a{
+.foot-nav-list a {
   text-decoration: none;
-  color: white; 
+  color: white;
 }
 .foot-nav-list a:hover {
   text-decoration: underline;
- 
 }
 
-.foot-nav-list li{
+.foot-nav-list li {
   list-style-type: none;
 }
 .foot-addr {
@@ -118,7 +106,6 @@ padding:5px;
 }
 .foot-addr:hover {
   text-decoration: underline;
-  
 }
 .copyright {
   grid-column: 3/4;
