@@ -5,7 +5,7 @@
 }
 
 .hero {
-  background-image: url("/group-3/photoshop/design-assets/bgk-header.png");
+ background-image:url("./photoshop/design-assets/bgk-header.png");
   height: 41em;
   margin: auto;
   width: 1200px;
