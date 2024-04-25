@@ -1,0 +1,15 @@
+.expertise-grid {
+  display: grid;
+
+  margin: auto;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.expertise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}

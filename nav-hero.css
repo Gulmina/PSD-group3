@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 
+/*Mobile device breakpoint*/
+
 .hero {
-  background-image: url("/group-3/photoshop/design-assets/bgk-header.png");
+  background-image: url("./photoshop/design-assets/bgk-header.png");
   height: 41em;
   margin: auto;
   width: 1200px;
@@ -28,39 +30,60 @@
   color: aqua;
 }
 
-.logo-container {
-  display: flex;
-  justify-items: left;
-  align-items: center;
-}
-
-.logo-container p {
-  margin-left: 0.5rem;
-  color: rgb(0, 169, 216);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: lighter;
-  font-size: 30px;
-}
-
 .logo,
 .tajam-logo {
   margin-top: 1rem;
 }
 
-.navbar {
-  color: #fff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  list-style-type: none;
+.tajam-logo {
+  /* font-family: "Krub", sans-serif; */
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  color: aqua;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.nav-container {
+  /* border: 3px solid yellow; */
   display: flex;
   flex-direction: row;
-  gap: 1.8em;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  /* border: 3px solid red; */
+}
+
+.nav-right {
   justify-content: right;
-  align-items: center;
+  align-items: right;
+  /* border-left: 3px solid purple;  */
+}
+
+.navbar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  gap: 1.8em;
   font-size: 12px;
   font-weight: 400;
   margin-bottom: 10rem;
   text-transform: uppercase;
+  list-style-type: none;
+  justify-content: right;
+  margin-top: 2rem;
+}
+
+.navbar a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
 }
 
 .hero-text {
