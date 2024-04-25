@@ -1,11 +1,70 @@
 
 @import url("nav-hero.css");
 
+/*--Second part CSS start*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+.secondpart-container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+  padding:60px;
+  
+
+
+}
+.secondpart{
+    background-color:white;
+    text-align: center;
+    padding:20px;
+    width: 400px;
+    
+    position:cover;
+
+}
+
+.s-h2{
+  text-align: left;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+  
+}
+.s-p{
+  text-align: left;
+}
+
+.s-btn{
+float:left;
+margin-top: 30px;
+margin-bottom: 30px;
+padding:5px;
+border-color: dodgerblue;
+background-color: white;
+color:dodgerblue
+}
+
+.s-img{
+  background-color: white;
+  padding:20px;
+  margin:20px;
+  width:200px;
+  height: 200px;
+}
+
+
+/*--Second part CSS end*/
+
+
 
 
 .footer {
