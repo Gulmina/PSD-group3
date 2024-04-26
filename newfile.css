@@ -1,0 +1,64 @@
+#contact-form-section{
+    background-color: transparent;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+border: 2px solid black;
+text-align: center;
+}
+
+.cf1{
+    display: flex;
+    flex-direction: column;
+
+border:solid 2px red;
+
+}
+
+.cf2{
+    border:solid 2px red;
+     text-align: center;
+}
+
+input[type=text],input[type=email],textarea{
+    width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.cf-h2{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+}
+#message{
+    height:400;
+    width: 100;
+}
+#cf-btn{
+    margin-left: 50px;background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-color: aqua;
+    color: aqua;
+    height: 3rem;
+    width: 8rem;
+    letter-spacing: 0.02rem;  
+  
+}
+
+.logo-class{
+    
+    display: grid;
+   grid-template-columns: 50% 50%;
+   grid-row: 1fr 1fr 1fr 1fr 1fr;
+  
+}
+
+.item{
+border: 2px solid blue;
+}

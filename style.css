@@ -1,7 +1,8 @@
 
 @import url("nav-hero.css");
+@import url("newfile.css");
 
-/*--Second part CSS start*/
+/*--Story-section CSS start*/
 
 * {
   margin: 0;
@@ -32,6 +33,7 @@
 }
 
 .s-h2{
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
   padding-top: 20px;
   padding-right: 20px;
@@ -68,10 +70,13 @@ padding:5px;
 }
 
 
-/*--Second part CSS end*/
+/*--Story section CSS end*/
+
+/*---contact---form ---csss-----start----*/
 
 
-
+/*---contact---form ---csss-----end----*/
+/*footer starts*/
 
 .footer {
   background-image: url('./photoshop/design-assets/bgk-footer.png');
