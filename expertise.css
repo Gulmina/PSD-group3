@@ -1,15 +1,89 @@
+/*Expertise section*/
+
+.expertise-container {
+  text-align: center;
+  margin: auto;
+}
+
+.expertise-container {
+  width: 1200px;
+}
+
 .expertise-grid {
   display: grid;
-
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
   margin: auto;
   width: 1200px;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
+  height: 650px;
+  margin-top: 3rem;
+  border-color: #888;
+  padding: 0 5rem 0 5rem;
+  column-gap: 2rem;
+  row-gap: 6rem;
+  text-align: center;
 }
 
 .expertise {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  text-align: center;
+}
+
+.expertise-title {
+  color: #444;
+  text-transform: uppercase;
+  margin: 5rem 0 0.5rem 0;
+  font-family: serif;
+}
+
+.expertise-text {
+  color: #888;
+  margin: 0.8rem 1rem 1.4rem 0;
+  font-size: 20px;
+  letter-spacing: 0.05rem;
+}
+
+/* .t {
+    text-align: center;
+    border: 1px solid red;
+    width: 1200px;
+} */
+
+.expertise-divider {
+  width: 50px;
+  background-color: rgb(203, 198, 198);
+  height: 2px;
+  border: none;
+  margin: auto;
+}
+
+/*Experimenting with this. Not specific but currently works*/
+section svg:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
+.grid-heading h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 18px;
+}
+
+.grid-text p {
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-weight: lighter;
+  color: #666;
+  font-size: 16px;
+  /* margin-bottom: 8rem; */
+}
+
+.grid-img {
+  margin-top: 5rem;
+  /* border-right: 1px solid red; */
 }
