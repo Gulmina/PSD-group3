@@ -21,7 +21,7 @@
   margin-top: 3rem;
   border-color: #888;
   padding: 0 5rem 0 5rem;
-  column-gap: 2rem;
+  /* column-gap: 2rem; */
   row-gap: 6rem;
   text-align: center;
 }
@@ -42,7 +42,7 @@
 
 .expertise-text {
   color: #888;
-  margin: 0.8rem 1rem 1.4rem 0;
+  margin: 1.1rem 0 1.3rem 0;
   font-size: 20px;
   letter-spacing: 0.05rem;
 }
@@ -56,9 +56,10 @@
 .expertise-divider {
   width: 50px;
   background-color: rgb(203, 198, 198);
-  height: 2px;
+  height: 2.5px;
   border: none;
   margin: auto;
+  margin-bottom: 4rem;
 }
 
 /*Experimenting with this. Not specific but currently works*/
@@ -79,11 +80,34 @@ section svg:nth-child(1) {
   line-height: 1.6;
   font-weight: lighter;
   color: #666;
-  font-size: 16px;
-  /* margin-bottom: 8rem; */
+  font-size: 17.5px;
+  /* margin-bottom: 4rem;  */
 }
 
-.grid-img {
-  margin-top: 5rem;
-  /* border-right: 1px solid red; */
+.grid-img-1,
+.grid-img-2 {
+  margin-top: 3rem;
+  padding: 2rem 2rem 0 1.5rem;
+  border-right: 0.5px solid rgb(221, 221, 221);
+  border-bottom: 0.5px solid rgb(221, 221, 221);
+  height: 18rem;
+}
+
+.grid-img-3 {
+  margin-top: 3rem;
+  padding: 2rem 2rem 0 1.5rem;
+  border-bottom: 0.5px solid rgb(221, 221, 221);
+  height: 18rem;
+}
+
+.grid-img-4,
+.grid-img-5 {
+  border-right: 0.5px solid rgb(221, 221, 221);
+  height: 20.6rem;
+  padding: 3.5rem 1rem 0 1rem;
+}
+
+.grid-img-6 {
+  height: 18rem;
+  padding: 2.2rem 1rem 0 1rem;
 }
