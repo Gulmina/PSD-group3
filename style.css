@@ -3,7 +3,9 @@
 @import url("expertise.css");
 
 /*--Story-section CSS start*/
-
+body {
+  margin: 0;
+}
 * {
   margin: 0;
   padding: 0;
@@ -26,9 +28,8 @@
   position: cover;
 }
 
-
-.s-h2{
-   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.s-h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   text-align: left;
   padding-top: 20px;
@@ -62,15 +63,11 @@
   height: 200px;
 }
 
-
-
 /*--Story section CSS end*/
 
 /*---contact---form ---csss-----start----*/
 
-
-#contact-form-section{
-  
+#contact-form-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -80,91 +77,69 @@
   margin-top: 4rem;
 
   @media only screen and (max-width: 600px) {
-    
-     
-      display:flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 
-      
-      .cf2{
-  
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 10vh 1fr;
-        justify-content: center;
-        align-content: center;
-        margin-top: -40px;
-       
-      }
-      .headings{
-  margin-bottom:2rem;
-        align-content: center;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-       
-       }
-      .logos{
-  
-        display: grid;
-        grid-template-columns: 30vh;
-        row-gap:2rem;
-        
-        
-      }
+    .cf2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10vh 1fr;
+      justify-content: center;
+      align-content: center;
+      margin-top: -40px;
+    }
+    .headings {
+      margin-bottom: 2rem;
+      align-content: center;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .logos {
+      display: grid;
+      grid-template-columns: 30vh;
+      row-gap: 2rem;
+    }
   }
 }
-.cf1{
-  
+.cf1 {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
- 
 }
 
-.cf2{
-  
+.cf2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 10vh 1fr;
   justify-content: center;
   align-content: center;
-  
- 
 }
 
-.logos{
-  
+.logos {
   display: grid;
   grid-template-columns: 30vh 30vh;
-  
-  
 }
 
-.headings{
-  
- align-content: center;
- font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
+.headings {
+  align-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-.item{
-  padding:4px; 
+.item {
+  padding: 4px;
   position: cover;
-  
 }
 
-.f-item{
- 
-padding:4px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-margin-bottom: 10px;
+.f-item {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 
-resize: vertical;
+  resize: vertical;
 }
-#cf-btn{
-  padding:3px;
+#cf-btn {
+  padding: 3px;
   background-color: transparent;
   box-shadow: none;
   outline: none;
@@ -187,20 +162,22 @@ resize: vertical;
   background-repeat: no-repeat;
   padding: 2rem 4rem;
   color: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: lighter;
   font-size: 1rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 4rem; 
+  padding: 2rem 4rem;
   text-align: center;
 }
-.capital, .team-members {
+.capital,
+.team-members {
   text-transform: uppercase;
 }
 
 #team-button {
-  padding: .6rem 2rem;
+  padding: 0.6rem 2rem;
   font-weight: bold;
   color: rgb(17, 225, 249);
   border: 1px solid;
@@ -211,7 +188,7 @@ resize: vertical;
 }
 
 #team-button:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .team-container {
@@ -222,27 +199,26 @@ resize: vertical;
   margin: 2rem 0;
 }
 
-
 .team-members {
   border: 1px solid rgb(186, 178, 178);
   width: 200px;
   height: 300px;
 }
-.team-members p{
+.team-members p {
   color: rgb(186, 178, 178);
 }
 
 .team-members:hover {
   opacity: 0.8;
 }
-.team-members img{
+.team-members img {
   border: 1px solid white;
   width: 100%;
   background-color: white;
   height: 200px;
 }
 
-.team-members-content{
+.team-members-content {
   padding: 1rem;
 }
 
@@ -252,7 +228,8 @@ resize: vertical;
   background-position: center;
   background-size: cover;
   color: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: lighter;
   font-size: 1rem;
   max-width: 1200px;
@@ -260,13 +237,13 @@ resize: vertical;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr 0.4fr;
-  grid-template-areas: 
-  'logo studio touch'
-  'contact . copyright';
+  grid-template-areas:
+    "logo studio touch"
+    "contact . copyright";
   justify-content: center;
   align-items: start;
   gap: 1rem;
-  padding: 2rem 4rem; 
+  padding: 2rem 4rem;
 }
 
 .footer-sec-1 {
@@ -289,8 +266,8 @@ resize: vertical;
   text-align: center;
 }
 
-.foot-sec__logo{
-  display: flex; 
+.foot-sec__logo {
+  display: flex;
   text-align: center;
   gap: 1rem;
 }
@@ -335,7 +312,7 @@ resize: vertical;
 
 #subscribe-input {
   background-color: transparent;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border: 1px solid rgb(190, 182, 182);
   color: white;
 }
@@ -350,14 +327,13 @@ resize: vertical;
 }
 
 @media only screen and (max-width: 900px) {
-  .footer{
+  .footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1fr 0.2fr;
-    grid-template-areas: 
-    'logo studio'
-    'touch contact'
-    'copyright .';
-
+    grid-template-areas:
+      "logo studio"
+      "touch contact"
+      "copyright .";
   }
   .foot-nav-list {
     justify-content: flex-start;
@@ -371,13 +347,11 @@ resize: vertical;
   .footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 0.2fr 0.1fr;
-    grid-template-areas: 
-    'logo'
-    'studio'
-    'touch'
-    'contact'
-    'copyright';
+    grid-template-areas:
+      "logo"
+      "studio"
+      "touch"
+      "contact"
+      "copyright";
   }
 }
-
-
