@@ -85,9 +85,39 @@ padding:5px;
   margin-bottom: 4rem;
   margin-top: 4rem;
 
+  @media only screen and (max-width: 600px) {
+    
+     
+      display:flex;
+      flex-wrap: wrap;
 
+      
+      .cf2{
+  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 1fr;
+        justify-content: center;
+        align-content: center;
+        margin-top: -40px;
+       
+      }
+      .headings{
+  margin-bottom:2rem;
+        align-content: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+       
+       }
+      .logos{
+  
+        display: grid;
+        grid-template-columns: 30vh;
+        row-gap:2rem;
+        
+        
+      }
+  }
 }
-
 .cf1{
   
   display: grid;
