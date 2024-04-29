@@ -75,6 +75,81 @@ padding:5px;
 /*---contact---form ---csss-----start----*/
 
 
+#contact-form-section{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 6rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+
+
+}
+
+.cf1{
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+ 
+}
+
+.cf2{
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 1fr;
+  justify-content: center;
+  align-content: center;
+  
+ 
+}
+
+.logos{
+  
+  display: grid;
+  grid-template-columns: 30vh 30vh;
+  
+  
+}
+
+.headings{
+  
+ align-content: center;
+ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.item{
+  padding:4px; 
+  position: cover;
+  
+}
+
+.f-item{
+ 
+padding:4px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-bottom: 10px;
+
+resize: vertical;
+}
+#cf-btn{
+  padding:3px;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  border-color: aqua;
+  color: aqua;
+  width: 4rem;
+  letter-spacing: 0.02rem;
+}
+
 /*---contact---form ---csss-----end----*/
 /*footer starts*/
 
