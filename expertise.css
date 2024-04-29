@@ -1,0 +1,219 @@
+/*Expertise section*/
+
+/*Start of Media Query for mobile*/
+@media only screen and (max-width: 480px) and (min-width: 300px) {
+  .expertise-container .expertise-grid {
+    display: block;
+    margin: auto;
+    height: 1650px;
+  }
+
+  .expertise-title-container .expertise-title,
+  .grid-text {
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+
+  .expertise-container {
+    max-width: 1200px;
+  }
+
+  .expertise-title-container {
+    margin: auto;
+    width: 100%;
+  }
+
+  .expertise-title-container .expertise-text {
+    margin-bottom: 6rem;
+  }
+
+  .expertise-title-container hr {
+    width: 10%;
+    margin: auto;
+    display: none;
+  }
+
+  section.grid-img-1,
+  section.grid-img-2,
+  section.grid-img-3,
+  section.grid-img-4,
+  section.grid-img-5,
+  section.grid-img-6 {
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0.5px solid #888;
+    margin-top: -2rem;
+  }
+}
+
+/*End of Media Query for mobile*/
+
+/*Start of Media Query for tablet*/
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .expertise-container {
+    height: 1400px;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .expertise-container .expertise-grid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 1200px;
+    justify-items: center;
+    align-items: center;
+    border-color: #888;
+    text-align: center;
+  }
+  .expertise-title-container .expertise-title,
+  .expertise-title-container.grid-text {
+    text-align: center;
+  }
+
+  .expertise-title-container {
+    width: 100%;
+  }
+
+  section.grid-img-1,
+  section.grid-img-3,
+  section.grid-img-5 {
+    border-right: 0.5px solid rgb(221, 221, 221);
+    border-bottom: 0.5px solid rgb(221, 221, 221);
+    height: 20.6rem;
+  }
+
+  section.grid-img-2,
+  section.grid-img-4,
+  section.grid-img-6 {
+    border-right: none;
+    border-bottom: 0.5px solid rgb(221, 221, 221);
+    height: 20.6rem;
+  }
+
+  .grid-img-1,
+  .grid-img-2 {
+    margin-top: 3rem;
+    border-right: 0.5px solid rgb(221, 221, 221);
+    border-bottom: 0.5px solid rgb(221, 221, 221);
+  }
+
+  .grid-img-3 {
+    /* border: 2px solid violet; */
+    margin-bottom: 3rem;
+  }
+
+  .grid-img-4,
+  .grid-img-5 {
+    border-right: 0.5px solid rgb(221, 221, 221);
+  }
+
+  .grid-img-6 {
+    height: 18rem;
+    padding: 2.2rem 1rem 0 1rem;
+  }
+}
+
+/*End of Media Query for tablet*/
+
+/*Start of Media Query for desktop*/
+.expertise-grid {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  margin: auto;
+  max-width: 1200px;
+  justify-items: center;
+  align-items: center;
+  height: 650px;
+  border-color: #888;
+  padding: 0 5rem 0 5rem;
+  /* column-gap: 2rem; */
+  row-gap: 6rem;
+  text-align: center;
+}
+
+.expertise-title {
+  color: #444;
+  text-transform: uppercase;
+  margin: 5rem 0 0.5rem 0;
+  font-family: serif;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.expertise-container {
+  max-width: 1200px;
+}
+
+.expertise-text {
+  color: #888;
+  margin: 1.1rem 0 1.3rem 0;
+  font-size: 20px;
+  letter-spacing: 0.05rem;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.expertise-title-container hr {
+  width: 5%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+/* .t {
+    text-align: center;
+    border: 1px solid red;
+    max-width: 1200px;
+} */
+
+/*Experimenting with this. Not specific but currently works*/
+section svg:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
+.grid-heading h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 18px;
+}
+
+.grid-text p {
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-weight: lighter;
+  color: #666;
+  font-size: 17.5px;
+  /* margin-bottom: 4rem;  */
+}
+
+.grid-img-1,
+.grid-img-2 {
+  margin-top: 3rem;
+  padding: 2rem 2rem 0 1.5rem;
+  border-right: 0.5px solid rgb(221, 221, 221);
+  border-bottom: 0.5px solid rgb(221, 221, 221);
+  height: 18rem;
+}
+
+.grid-img-3 {
+  margin-top: 3rem;
+  padding: 2rem 2rem 0 1.5rem;
+  border-bottom: 0.5px solid rgb(221, 221, 221);
+  height: 18rem;
+}
+
+.grid-img-4,
+.grid-img-5 {
+  border-right: 0.5px solid rgb(221, 221, 221);
+  height: 20.6rem;
+  padding: 3.5rem 1rem 0 1rem;
+}
+
+.grid-img-6 {
+  height: 18rem;
+  padding: 2.2rem 1rem 0 1rem;
+}
+/*End of Media Query for desktop*/

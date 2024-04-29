@@ -1,5 +1,6 @@
 @import url("nav-hero.css");
-@import url("newfile.css");
+@import url("video.css");
+@import url("expertise.css");
 
 /*--Story-section CSS start*/
 
@@ -9,43 +10,36 @@
   box-sizing: border-box;
 }
 
-.secondpart-container{
-
+.secondpart-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
   margin: 10px;
-  padding:60px;
-  
-
-
+  padding: 60px;
 }
-.secondpart{
-    background-color:white;
-    text-align: center;
-    padding:20px;
-    width: 400px;
-    
-    position:cover;
-
+.secondpart {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  position: cover;
 }
+
 
 .s-h2{
    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
   text-align: left;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  
-  
 }
-.s-p{
+.s-p {
   text-align: left;
 }
 
-.s-btn{
-  
+.s-btn {
   background-color: transparent;
   box-shadow: none;
   outline: none;
@@ -54,19 +48,20 @@
   height: 3rem;
   width: 8rem;
   letter-spacing: 0.02rem;
-float:left;
-margin-top: 30px;
-margin-bottom: 30px;
-padding:5px;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
 }
 
-.s-img{
+.s-img {
   background-color: white;
-  padding:20px;
-  margin:20px;
-  width:200px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
   height: 200px;
 }
+
 
 
 /*--Story section CSS end*/
@@ -181,4 +176,208 @@ resize: vertical;
 
 /*---contact---form ---csss-----end----*/
 /*footer starts*/
+
+/*--Second part CSS end*/
+
+/* Team Section */
+.team-section {
+  background-image: url("./photoshop/design-assets/bgk-header.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem 4rem;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 4rem; 
+  text-align: center;
+}
+.capital, .team-members {
+  text-transform: uppercase;
+}
+
+#team-button {
+  padding: .6rem 2rem;
+  font-weight: bold;
+  color: rgb(17, 225, 249);
+  border: 1px solid;
+  background-color: transparent;
+  margin: 2rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#team-button:hover {
+  opacity: .5;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+
+.team-members {
+  border: 1px solid rgb(186, 178, 178);
+  width: 200px;
+  height: 300px;
+}
+.team-members p{
+  color: rgb(186, 178, 178);
+}
+
+.team-members:hover {
+  opacity: 0.8;
+}
+.team-members img{
+  border: 1px solid white;
+  width: 100%;
+  background-color: white;
+  height: 200px;
+}
+
+.team-members-content{
+  padding: 1rem;
+}
+
+/* Footer  */
+.footer {
+  background-image: url("./photoshop/design-assets/bgk-footer.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 0.4fr;
+  grid-template-areas: 
+  'logo studio touch'
+  'contact . copyright';
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  padding: 2rem 4rem; 
+}
+
+.footer-sec-1 {
+  grid-area: logo;
+}
+
+.footer-sec-2 {
+  grid-area: studio;
+}
+
+.footer-sec-3 {
+  grid-area: touch;
+}
+
+.footer-sec-4 {
+  grid-area: contact;
+}
+.footer-sec-5 {
+  grid-area: copyright;
+  text-align: center;
+}
+
+.foot-sec__logo{
+  display: flex; 
+  text-align: center;
+  gap: 1rem;
+}
+.foot-sec__logo p {
+  font-size: 2rem;
+  color: rgb(17, 225, 249);
+}
+.foot-nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.foot-nav-list a {
+  text-decoration: none;
+  color: white;
+}
+.foot-nav-list img:hover {
+  opacity: 0.2;
+}
+
+.foot-nav-list li {
+  list-style-type: none;
+}
+
+.foot-nav-list a:hover {
+  text-decoration: underline;
+}
+
+.foot-addr {
+  text-decoration: none;
+  color: white;
+}
+.foot-addr:hover {
+  text-decoration: underline;
+}
+
+.subscribe {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+#subscribe-input {
+  background-color: transparent;
+  padding: .5rem 1.5rem;
+  border: 1px solid rgb(190, 182, 182);
+  color: white;
+}
+
+#subscribe-button {
+  background-color: rgb(190, 182, 182);
+  border: 1px solid rgb(190, 182, 182);
+  padding: 0.5rem 1.5rem;
+}
+#subscribe-button:hover {
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 0.2fr;
+    grid-template-areas: 
+    'logo studio'
+    'touch contact'
+    'copyright .';
+
+  }
+  .foot-nav-list {
+    justify-content: flex-start;
+  }
+  .copyright {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.2fr 0.1fr;
+    grid-template-areas: 
+    'logo'
+    'studio'
+    'touch'
+    'contact'
+    'copyright';
+  }
+}
+
 
