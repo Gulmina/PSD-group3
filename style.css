@@ -221,6 +221,7 @@ body {
   margin: 2rem 1rem;
   display: inline-block;
   text-decoration: none;
+  text-align: center;
 }
 
 #team-button:hover {
@@ -401,11 +402,19 @@ body {
     align-items: center;
   }
   #subscribe-input {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
   }
   .foot-nav-list {
     justify-content: center;
     gap: 0.3rem;
+    flex-wrap: wrap;
+  }
+  #team-button {
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    margin: 0;
+    background-color: transparent;
+    display: inline-block;
   }
 }
 
