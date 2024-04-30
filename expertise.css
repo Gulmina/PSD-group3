@@ -1,51 +1,6 @@
 /*Expertise section*/
 
 /*Start of Media Query for mobile*/
-/* @media only screen and (max-width: 480px) {
-  .expertise-container .expertise-grid {
-    display: block;
-    margin: auto;
-
-    /* height: 1650px; 
-  }
-
-  .expertise-title-container .expertise-title,
-  .grid-text {
-    text-align: center;
-    /* border: 1px solid red; 
-  }
-
-  .expertise-container {
-   
-  }
-
-  .expertise-title-container {
-    margin: auto;
-    width: 100%;
-  }
-
-  .expertise-title-container .expertise-text {
-    margin-bottom: 6rem;
-  }
-
-  .expertise-title-container hr {
-    width: 10%;
-    margin: auto;
-    display: none;
-  }
-
-  section.grid-img-1,
-  section.grid-img-2,
-  section.grid-img-3,
-  section.grid-img-4,
-  section.grid-img-5,
-  section.grid-img-6 {
-    border-right: 0px;
-    border-bottom: 0px;
-    border-top: 0.5px solid #888;
-    margin-top: -2rem;
-  }
-}
 
 /*End of Media Query for mobile*/
 
